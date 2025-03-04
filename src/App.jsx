@@ -26,7 +26,7 @@ function App() {
     </div>
     //2. Using the Teammembercard directly from the components folder:
     
-  //<Teammembercard/>
+  //<Teammembercard>
   );
 }
 
