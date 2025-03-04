@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Teammembercard from './components/TeamMemberCard';
 
+//creating an array for storing the team members details and using in 'map':
 const Teammembers = ()=>{
   [
     {Name :"John doe", Jobtitle : "Software Engineer"},
@@ -12,7 +13,7 @@ const Teammembers = ()=>{
 }
 
 function App() {
-  //1-Method. Using Map from the above array of details:
+  //1. Using 'map' from the above array of details:
   return (
   //   <div className='card'>
   //     {Teammembers.map(member,index)=>{
@@ -25,7 +26,7 @@ function App() {
   //   }
   //   </div>
 
-  //2-Method. Using the Teammembercard directly from the components folder:
+  //2. Using the Teammembercard directly from the components folder:
 
   <Teammembercard/>
 

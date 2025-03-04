@@ -1,6 +1,7 @@
 import React from "react";
 
 const Teammembercard = ({Name,Jobtitle})=>{
+    //adding {Name,jobtitle} for using it in the app.jsx
     const Name_1 = "John Doe"
     const Jobtitle_1 = "Software Enginner"
 
